@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{85D8AB6F-546D-4737-B5D1-7E70355E6AA3}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Jose" ID="{85D8AB6F-546D-4737-B5D1-7E70355E6AA3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="RUSTIE" ID="{E4AE8F29-AF91-471B-963E-4E82D01F1F90}" ShortID="100071122">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA9E0B34-CB7C-45A9-8572-0429D9CC266C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{55EFF8A9-EAA4-431A-AD58-DBE192FA2104}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Daft-Punk-Television-Rules-the-Nation-_Official-Audio_" ID="{BA801605-3581-4475-8C33-4E4852AB538D}">
+							<Language>SFX</Language>
+							<AudioFile>Daft-Punk-Television-Rules-the-Nation-_Official-Audio_.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1001710033"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Daft-Punk-Television-Rules-the-Nation-_Official-Audio_" ID="{BA801605-3581-4475-8C33-4E4852AB538D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
